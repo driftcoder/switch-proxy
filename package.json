@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "dependencies": {
+    "dns-proxy": "0.5.0",
+    "express": "4.15.2"
+  },
+  "scripts": {
+    "start": "node main.js",
+    "start-dns": "dns-proxy --config ./.dns-proxy.rc",
+    "start-server": "node server.js"
+  }
+}
